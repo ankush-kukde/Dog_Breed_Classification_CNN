@@ -37,7 +37,7 @@ def display_image_and_prediction(img_path, dog_breeds):
     plt.show()
 
 # Directory paths
-base_dir = r'C:\Users\Si004 (293400)\projects all\dogs breed classification\dataset\images\Images'
+base_dir = r'/content/drive/MyDrive/CDC/Extracted/Images'
 
 # ImageDataGenerator for data augmentation and rescaling
 train_datagen = tf.keras.preprocessing.image.ImageDataGenerator(
